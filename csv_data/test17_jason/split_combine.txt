@@ -1,0 +1,6 @@
+head -n 1201 test15.csv > part1.csv ; sed -n '402,1601p' test15.csv > part2.csv ; sed -n '802,2001p' test15.csv > part3.csv ; sed -n '1202,2401p' test15.csv > part4.csv
+
+
+
+cat *.csv > combine.csv
+

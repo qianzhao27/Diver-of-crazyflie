@@ -1,0 +1,6 @@
+Split a file of 24 sec data into 4 parts, each part has 12 sec data. After combination, new file has 48 sec data.
+
+0:12, 4:16, 8:20, 12:24.
+
+label_0: no wind, 48 sec
+label_1: detect wind once, 48 sec
